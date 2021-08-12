@@ -17,6 +17,7 @@
 		DE8F880926C3CBE800B491D5 /* SoundIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880226C3CBE700B491D5 /* SoundIdentifier.swift */; };
 		DE8F880C26C3CBE800B491D5 /* SetupMonitoredSoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880526C3CBE800B491D5 /* SetupMonitoredSoundsView.swift */; };
 		DE8F880E26C3CC4100B491D5 /* DetectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880D26C3CC4100B491D5 /* DetectionState.swift */; };
+		DEB176A426C5354D00A8B0BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEB176A326C5354D00A8B0BA /* README.md */; };
 		DEDF71A226BE976C00B146BB /* BridDetectionSUITileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF71A126BE976C00B146BB /* BridDetectionSUITileApp.swift */; };
 		DEDF71A426BE976C00B146BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF71A326BE976C00B146BB /* ContentView.swift */; };
 		DEDF71A626BE976E00B146BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDF71A526BE976E00B146BB /* Assets.xcassets */; };
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		DE2F0AD126C51EA500503A8D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		DE2F0B0426C5235A00503A8D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
-		DE2F0B0626C5257900503A8D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE4E553A26C458D9007A41A9 /* MyBirdsClassifier4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyBirdsClassifier4.mlmodel; sourceTree = "<group>"; };
 		DE6B472E26C15B44000A0B75 /* BirdsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsModel.swift; sourceTree = "<group>"; };
 		DE8F87EA26C3C88000B491D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +38,7 @@
 		DE8F880226C3CBE700B491D5 /* SoundIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundIdentifier.swift; sourceTree = "<group>"; };
 		DE8F880526C3CBE800B491D5 /* SetupMonitoredSoundsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupMonitoredSoundsView.swift; sourceTree = "<group>"; };
 		DE8F880D26C3CC4100B491D5 /* DetectionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionState.swift; sourceTree = "<group>"; };
+		DEB176A326C5354D00A8B0BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DEC5FEDD26C28B8C003580DB /* BridDetectionSUITile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BridDetectionSUITile.entitlements; sourceTree = "<group>"; };
 		DEDF719E26BE976C00B146BB /* BridDetectionSUITile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridDetectionSUITile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDF71A126BE976C00B146BB /* BridDetectionSUITileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridDetectionSUITileApp.swift; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		DEDF719526BE976C00B146BB = {
 			isa = PBXGroup;
 			children = (
+				DEB176A326C5354D00A8B0BA /* README.md */,
 				DEDF71A026BE976C00B146BB /* BridDetectionSUITile */,
 				DEDF719F26BE976C00B146BB /* Products */,
 			);
@@ -118,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				DE8F87EA26C3C88000B491D5 /* Info.plist */,
-				DE2F0B0626C5257900503A8D /* README.md */,
 				DE2F0B0426C5235A00503A8D /* .swiftlint.yml */,
 				DEC5FEDD26C28B8C003580DB /* BridDetectionSUITile.entitlements */,
 				DE2F0AD426C520BB00503A8D /* ML */,
@@ -202,6 +203,7 @@
 			files = (
 				DE2F0B0526C5235A00503A8D /* .swiftlint.yml in Resources */,
 				DE2F0AD226C51EA500503A8D /* LICENSE.txt in Resources */,
+				DEB176A426C5354D00A8B0BA /* README.md in Resources */,
 				DEDF71A926BE976E00B146BB /* Preview Assets.xcassets in Resources */,
 				DEDF71A626BE976E00B146BB /* Assets.xcassets in Resources */,
 			);
