@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import AVKit
+import SoundAnalysis
+import Combine
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        DetectSoundsView()
     }
 }
 

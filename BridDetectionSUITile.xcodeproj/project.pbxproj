@@ -7,18 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE05B6ED26C4027500BF5413 /* MyBirdsClassifier5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE05B6EC26C4027500BF5413 /* MyBirdsClassifier5.mlmodel */; };
+		DE2F0AD226C51EA500503A8D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DE2F0AD126C51EA500503A8D /* LICENSE.txt */; };
+		DE2F0B0526C5235A00503A8D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = DE2F0B0426C5235A00503A8D /* .swiftlint.yml */; };
+		DE4E553B26C458DA007A41A9 /* MyBirdsClassifier4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE4E553A26C458D9007A41A9 /* MyBirdsClassifier4.mlmodel */; };
+		DE6B472F26C15B44000A0B75 /* BirdsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B472E26C15B44000A0B75 /* BirdsModel.swift */; };
+		DE8F880626C3CBE800B491D5 /* ClassificationResultsSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F87FF26C3CBE700B491D5 /* ClassificationResultsSubject.swift */; };
+		DE8F880726C3CBE800B491D5 /* ClassifySoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880026C3CBE700B491D5 /* ClassifySoundApp.swift */; };
+		DE8F880826C3CBE800B491D5 /* SystemAudioClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880126C3CBE700B491D5 /* SystemAudioClassifier.swift */; };
+		DE8F880926C3CBE800B491D5 /* SoundIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880226C3CBE700B491D5 /* SoundIdentifier.swift */; };
+		DE8F880C26C3CBE800B491D5 /* SetupMonitoredSoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880526C3CBE800B491D5 /* SetupMonitoredSoundsView.swift */; };
+		DE8F880E26C3CC4100B491D5 /* DetectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880D26C3CC4100B491D5 /* DetectionState.swift */; };
 		DEDF71A226BE976C00B146BB /* BridDetectionSUITileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF71A126BE976C00B146BB /* BridDetectionSUITileApp.swift */; };
 		DEDF71A426BE976C00B146BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF71A326BE976C00B146BB /* ContentView.swift */; };
 		DEDF71A626BE976E00B146BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDF71A526BE976E00B146BB /* Assets.xcassets */; };
 		DEDF71A926BE976E00B146BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDF71A826BE976E00B146BB /* Preview Assets.xcassets */; };
+		DEDF71B026BE97A700B146BB /* DetectSoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF71AF26BE97A700B146BB /* DetectSoundsView.swift */; };
+		DEF9BBB526BFF84E0048E83D /* PredicitonDealing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9BBB426BFF84E0048E83D /* PredicitonDealing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE05B6EC26C4027500BF5413 /* MyBirdsClassifier5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyBirdsClassifier5.mlmodel; sourceTree = "<group>"; };
+		DE2F0AD126C51EA500503A8D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DE2F0B0426C5235A00503A8D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		DE2F0B0626C5257900503A8D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE4E553A26C458D9007A41A9 /* MyBirdsClassifier4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyBirdsClassifier4.mlmodel; sourceTree = "<group>"; };
+		DE6B472E26C15B44000A0B75 /* BirdsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsModel.swift; sourceTree = "<group>"; };
+		DE8F87EA26C3C88000B491D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DE8F87FF26C3CBE700B491D5 /* ClassificationResultsSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassificationResultsSubject.swift; sourceTree = "<group>"; };
+		DE8F880026C3CBE700B491D5 /* ClassifySoundApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifySoundApp.swift; sourceTree = "<group>"; };
+		DE8F880126C3CBE700B491D5 /* SystemAudioClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemAudioClassifier.swift; sourceTree = "<group>"; };
+		DE8F880226C3CBE700B491D5 /* SoundIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundIdentifier.swift; sourceTree = "<group>"; };
+		DE8F880526C3CBE800B491D5 /* SetupMonitoredSoundsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupMonitoredSoundsView.swift; sourceTree = "<group>"; };
+		DE8F880D26C3CC4100B491D5 /* DetectionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionState.swift; sourceTree = "<group>"; };
+		DEC5FEDD26C28B8C003580DB /* BridDetectionSUITile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BridDetectionSUITile.entitlements; sourceTree = "<group>"; };
 		DEDF719E26BE976C00B146BB /* BridDetectionSUITile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridDetectionSUITile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDF71A126BE976C00B146BB /* BridDetectionSUITileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridDetectionSUITileApp.swift; sourceTree = "<group>"; };
 		DEDF71A326BE976C00B146BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEDF71A526BE976E00B146BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEDF71A826BE976E00B146BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEDF71AF26BE97A700B146BB /* DetectSoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectSoundsView.swift; sourceTree = "<group>"; };
+		DEF9BBB426BFF84E0048E83D /* PredicitonDealing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicitonDealing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +61,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE2F0AD026C51E6800503A8D /* License */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F0AD126C51EA500503A8D /* LICENSE.txt */,
+			);
+			path = License;
+			sourceTree = "<group>";
+		};
+		DE2F0AD326C5209A00503A8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEDF71A326BE976C00B146BB /* ContentView.swift */,
+				DEDF71AF26BE97A700B146BB /* DetectSoundsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE2F0AD426C520BB00503A8D /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				DE05B6EC26C4027500BF5413 /* MyBirdsClassifier5.mlmodel */,
+				DE4E553A26C458D9007A41A9 /* MyBirdsClassifier4.mlmodel */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		DE8F87FE26C3CBB700B491D5 /* SysSoundClassif */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F0AD026C51E6800503A8D /* License */,
+				DE8F880D26C3CC4100B491D5 /* DetectionState.swift */,
+				DE8F87FF26C3CBE700B491D5 /* ClassificationResultsSubject.swift */,
+				DE8F880026C3CBE700B491D5 /* ClassifySoundApp.swift */,
+				DE8F880526C3CBE800B491D5 /* SetupMonitoredSoundsView.swift */,
+				DE8F880226C3CBE700B491D5 /* SoundIdentifier.swift */,
+				DE8F880126C3CBE700B491D5 /* SystemAudioClassifier.swift */,
+			);
+			path = SysSoundClassif;
+			sourceTree = "<group>";
+		};
 		DEDF719526BE976C00B146BB = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +120,16 @@
 		DEDF71A026BE976C00B146BB /* BridDetectionSUITile */ = {
 			isa = PBXGroup;
 			children = (
+				DE8F87EA26C3C88000B491D5 /* Info.plist */,
+				DE2F0B0626C5257900503A8D /* README.md */,
+				DE2F0B0426C5235A00503A8D /* .swiftlint.yml */,
+				DEC5FEDD26C28B8C003580DB /* BridDetectionSUITile.entitlements */,
+				DE2F0AD426C520BB00503A8D /* ML */,
+				DE8F87FE26C3CBB700B491D5 /* SysSoundClassif */,
+				DE2F0AD326C5209A00503A8D /* Views */,
 				DEDF71A126BE976C00B146BB /* BridDetectionSUITileApp.swift */,
-				DEDF71A326BE976C00B146BB /* ContentView.swift */,
+				DEF9BBB426BFF84E0048E83D /* PredicitonDealing.swift */,
+				DE6B472E26C15B44000A0B75 /* BirdsModel.swift */,
 				DEDF71A526BE976E00B146BB /* Assets.xcassets */,
 				DEDF71A726BE976E00B146BB /* Preview Content */,
 			);
@@ -77,6 +154,7 @@
 				DEDF719A26BE976C00B146BB /* Sources */,
 				DEDF719B26BE976C00B146BB /* Frameworks */,
 				DEDF719C26BE976C00B146BB /* Resources */,
+				DE2F0AD626C521F300503A8D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,6 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2F0B0526C5235A00503A8D /* .swiftlint.yml in Resources */,
+				DE2F0AD226C51EA500503A8D /* LICENSE.txt in Resources */,
 				DEDF71A926BE976E00B146BB /* Preview Assets.xcassets in Resources */,
 				DEDF71A626BE976E00B146BB /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +212,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DE2F0AD626C521F300503A8D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# if which swiftlint >/dev/null; then\n# swiftlint \n# else\n#   echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n# fi\n# \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DEDF719A26BE976C00B146BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8F880926C3CBE800B491D5 /* SoundIdentifier.swift in Sources */,
+				DE8F880826C3CBE800B491D5 /* SystemAudioClassifier.swift in Sources */,
+				DE6B472F26C15B44000A0B75 /* BirdsModel.swift in Sources */,
+				DE8F880626C3CBE800B491D5 /* ClassificationResultsSubject.swift in Sources */,
+				DEF9BBB526BFF84E0048E83D /* PredicitonDealing.swift in Sources */,
+				DE05B6ED26C4027500BF5413 /* MyBirdsClassifier5.mlmodel in Sources */,
+				DE8F880726C3CBE800B491D5 /* ClassifySoundApp.swift in Sources */,
 				DEDF71A426BE976C00B146BB /* ContentView.swift in Sources */,
+				DE8F880C26C3CBE800B491D5 /* SetupMonitoredSoundsView.swift in Sources */,
+				DEDF71B026BE97A700B146BB /* DetectSoundsView.swift in Sources */,
 				DEDF71A226BE976C00B146BB /* BridDetectionSUITileApp.swift in Sources */,
+				DE4E553B26C458DA007A41A9 /* MyBirdsClassifier4.mlmodel in Sources */,
+				DE8F880E26C3CC4100B491D5 /* DetectionState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,18 +377,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BridDetectionSUITile/BridDetectionSUITile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BridDetectionSUITile/Preview Content\"";
 				DEVELOPMENT_TEAM = 9ZBR4PY2ZY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BridDetectionSUITile/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -285,9 +398,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = empty.BridDetectionSUITile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,18 +410,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BridDetectionSUITile/BridDetectionSUITile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BridDetectionSUITile/Preview Content\"";
 				DEVELOPMENT_TEAM = 9ZBR4PY2ZY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BridDetectionSUITile/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,9 +431,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = empty.BridDetectionSUITile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
