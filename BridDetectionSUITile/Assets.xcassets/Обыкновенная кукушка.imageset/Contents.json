@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Common_Hawk_Cuckoo_(Hierococcyx_varius)_at_Narendrapur_W_IMG_4111.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

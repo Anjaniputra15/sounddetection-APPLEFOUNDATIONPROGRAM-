@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE2F0AD226C51EA500503A8D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DE2F0AD126C51EA500503A8D /* LICENSE.txt */; };
 		DE2F0B0526C5235A00503A8D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = DE2F0B0426C5235A00503A8D /* .swiftlint.yml */; };
-		DE4E553B26C458DA007A41A9 /* MyBirdsClassifier4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE4E553A26C458D9007A41A9 /* MyBirdsClassifier4.mlmodel */; };
+		DE4E553B26C458DA007A41A9 /* MyBirdsClassifier5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE4E553A26C458D9007A41A9 /* MyBirdsClassifier5.mlmodel */; };
 		DE6B472F26C15B44000A0B75 /* BirdsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B472E26C15B44000A0B75 /* BirdsModel.swift */; };
 		DE8F880626C3CBE800B491D5 /* ClassificationResultsSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F87FF26C3CBE700B491D5 /* ClassificationResultsSubject.swift */; };
 		DE8F880726C3CBE800B491D5 /* ClassifySoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880026C3CBE700B491D5 /* ClassifySoundApp.swift */; };
@@ -18,6 +18,8 @@
 		DE8F880C26C3CBE800B491D5 /* SetupMonitoredSoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880526C3CBE800B491D5 /* SetupMonitoredSoundsView.swift */; };
 		DE8F880E26C3CC4100B491D5 /* DetectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F880D26C3CC4100B491D5 /* DetectionState.swift */; };
 		DEB176A426C5354D00A8B0BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEB176A326C5354D00A8B0BA /* README.md */; };
+		DEB176A626C5521F00A8B0BA /* MyBirdsClassifier4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DEB176A526C5521F00A8B0BA /* MyBirdsClassifier4.mlmodel */; };
+		DEBDACFD26C5619500EC954F /* OnlySingingBirds 9 cl 1s VGG.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DEBDACFC26C5619500EC954F /* OnlySingingBirds 9 cl 1s VGG.mlmodel */; };
 		DEDF71A226BE976C00B146BB /* BridDetectionSUITileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF71A126BE976C00B146BB /* BridDetectionSUITileApp.swift */; };
 		DEDF71A426BE976C00B146BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF71A326BE976C00B146BB /* ContentView.swift */; };
 		DEDF71A626BE976E00B146BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDF71A526BE976E00B146BB /* Assets.xcassets */; };
@@ -29,7 +31,7 @@
 /* Begin PBXFileReference section */
 		DE2F0AD126C51EA500503A8D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		DE2F0B0426C5235A00503A8D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
-		DE4E553A26C458D9007A41A9 /* MyBirdsClassifier4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyBirdsClassifier4.mlmodel; sourceTree = "<group>"; };
+		DE4E553A26C458D9007A41A9 /* MyBirdsClassifier5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyBirdsClassifier5.mlmodel; sourceTree = "<group>"; };
 		DE6B472E26C15B44000A0B75 /* BirdsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsModel.swift; sourceTree = "<group>"; };
 		DE8F87EA26C3C88000B491D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DE8F87FF26C3CBE700B491D5 /* ClassificationResultsSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassificationResultsSubject.swift; sourceTree = "<group>"; };
@@ -39,6 +41,8 @@
 		DE8F880526C3CBE800B491D5 /* SetupMonitoredSoundsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupMonitoredSoundsView.swift; sourceTree = "<group>"; };
 		DE8F880D26C3CC4100B491D5 /* DetectionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionState.swift; sourceTree = "<group>"; };
 		DEB176A326C5354D00A8B0BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DEB176A526C5521F00A8B0BA /* MyBirdsClassifier4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyBirdsClassifier4.mlmodel; sourceTree = "<group>"; };
+		DEBDACFC26C5619500EC954F /* OnlySingingBirds 9 cl 1s VGG.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "OnlySingingBirds 9 cl 1s VGG.mlmodel"; sourceTree = "<group>"; };
 		DEC5FEDD26C28B8C003580DB /* BridDetectionSUITile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BridDetectionSUITile.entitlements; sourceTree = "<group>"; };
 		DEDF719E26BE976C00B146BB /* BridDetectionSUITile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridDetectionSUITile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDF71A126BE976C00B146BB /* BridDetectionSUITileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridDetectionSUITileApp.swift; sourceTree = "<group>"; };
@@ -80,7 +84,9 @@
 		DE2F0AD426C520BB00503A8D /* ML */ = {
 			isa = PBXGroup;
 			children = (
-				DE4E553A26C458D9007A41A9 /* MyBirdsClassifier4.mlmodel */,
+				DEBDACFC26C5619500EC954F /* OnlySingingBirds 9 cl 1s VGG.mlmodel */,
+				DEB176A526C5521F00A8B0BA /* MyBirdsClassifier4.mlmodel */,
+				DE4E553A26C458D9007A41A9 /* MyBirdsClassifier5.mlmodel */,
 			);
 			path = ML;
 			sourceTree = "<group>";
@@ -244,10 +250,12 @@
 				DE8F880726C3CBE800B491D5 /* ClassifySoundApp.swift in Sources */,
 				DEDF71A426BE976C00B146BB /* ContentView.swift in Sources */,
 				DE8F880C26C3CBE800B491D5 /* SetupMonitoredSoundsView.swift in Sources */,
+				DEB176A626C5521F00A8B0BA /* MyBirdsClassifier4.mlmodel in Sources */,
 				DEDF71B026BE97A700B146BB /* DetectSoundsView.swift in Sources */,
 				DEDF71A226BE976C00B146BB /* BridDetectionSUITileApp.swift in Sources */,
-				DE4E553B26C458DA007A41A9 /* MyBirdsClassifier4.mlmodel in Sources */,
+				DE4E553B26C458DA007A41A9 /* MyBirdsClassifier5.mlmodel in Sources */,
 				DE8F880E26C3CC4100B491D5 /* DetectionState.swift in Sources */,
+				DEBDACFD26C5619500EC954F /* OnlySingingBirds 9 cl 1s VGG.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
