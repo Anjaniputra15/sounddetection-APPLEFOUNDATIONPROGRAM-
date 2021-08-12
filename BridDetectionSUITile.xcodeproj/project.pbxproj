@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE05B6ED26C4027500BF5413 /* MyBirdsClassifier5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE05B6EC26C4027500BF5413 /* MyBirdsClassifier5.mlmodel */; };
 		DE2F0AD226C51EA500503A8D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DE2F0AD126C51EA500503A8D /* LICENSE.txt */; };
 		DE2F0B0526C5235A00503A8D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = DE2F0B0426C5235A00503A8D /* .swiftlint.yml */; };
 		DE4E553B26C458DA007A41A9 /* MyBirdsClassifier4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE4E553A26C458D9007A41A9 /* MyBirdsClassifier4.mlmodel */; };
@@ -27,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE05B6EC26C4027500BF5413 /* MyBirdsClassifier5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyBirdsClassifier5.mlmodel; sourceTree = "<group>"; };
 		DE2F0AD126C51EA500503A8D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		DE2F0B0426C5235A00503A8D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		DE2F0B0626C5257900503A8D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 		DE2F0AD426C520BB00503A8D /* ML */ = {
 			isa = PBXGroup;
 			children = (
-				DE05B6EC26C4027500BF5413 /* MyBirdsClassifier5.mlmodel */,
 				DE4E553A26C458D9007A41A9 /* MyBirdsClassifier4.mlmodel */,
 			);
 			path = ML;
@@ -242,7 +239,6 @@
 				DE6B472F26C15B44000A0B75 /* BirdsModel.swift in Sources */,
 				DE8F880626C3CBE800B491D5 /* ClassificationResultsSubject.swift in Sources */,
 				DEF9BBB526BFF84E0048E83D /* PredicitonDealing.swift in Sources */,
-				DE05B6ED26C4027500BF5413 /* MyBirdsClassifier5.mlmodel in Sources */,
 				DE8F880726C3CBE800B491D5 /* ClassifySoundApp.swift in Sources */,
 				DEDF71A426BE976C00B146BB /* ContentView.swift in Sources */,
 				DE8F880C26C3CBE800B491D5 /* SetupMonitoredSoundsView.swift in Sources */,
